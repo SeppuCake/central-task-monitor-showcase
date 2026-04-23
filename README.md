@@ -1,12 +1,15 @@
 # Central Task Monitor (Showcase)
 
 ## Overview
+
 A web-based internal system designed to manage service requests, assign tasks, and track progress across departments.
 
 ## Purpose
+
 To replace fragmented manual workflows with a centralized system that improves visibility and coordination.
 
 ## Key Features
+
 - Task assignment and tracking
 - Status monitoring (Pending, In Progress, Completed)
 - Role-based access control
@@ -14,44 +17,77 @@ To replace fragmented manual workflows with a centralized system that improves v
 - Incident and complaint reporting system
 
 ## Tech Stack
+
 - PHP
 - MySQL
 - JavaScript (jQuery, AJAX)
 - Bootstrap
 
 ## My Role
+
 - Designed and developed the system independently
 - Built backend logic and database structure
 - Implemented frontend UI and interactions
 - Integrated workflows and reporting features
 
 ## Impact
+
 - Improved operational visibility across teams
 - Reduced manual tracking effort
 - Enabled structured reporting and accountability
 
-## Project Images
+## Screenshots
 
 ### Dashboard
-A centralized view of task statistics and system activity.
 
-![Dashboard](images/dashboard.png)
+A centralized dashboard showing live system activity, task summaries, and operational statistics.
+
+![Dashboard](images/ctm-dashboard.png)
 
 ---
 
-### Task Management
-Manage, assign, and track service requests.
+### Service Requests
 
-![Request List](images/request-list.png)
+A structured view of submitted service requests for tracking, filtering, and follow-up actions.
+
+![Service Requests](images/ctm-service-requests.png)
 
 ---
 
 ### Request Form
-Submit new service requests through a structured workflow.
 
-![Form](images/form.png)
+A digital form used to submit new service requests and replace the previous paper-based process.
+
+![Request Form](images/ctm-request-form.png)
+
+---
+
+### Task Management
+
+A task management view used to assign, monitor, and update work across departments.
+
+![Task Management](images/ctm-task-management.png)
+
+---
+
+### Incident Reporting
+
+A module for logging and managing incident or complaint reports within the same centralized platform.
+
+![Incident Reporting](images/ctm-incident-report.png)
+
+---
+
+### User Management
+
+A management screen for handling users and role-based access within the system.
+
+![User Management](images/ctm-user-management.png)
+
+---
 
 ## System Flow
+
 User submits request → System validates → Manager approval → Task assigned → Status updates → Completion & reporting
 
 ## Challenges & Solutions
@@ -74,11 +110,13 @@ User submits request → System validates → Manager approval → Task assigned
 ## Before vs After
 
 Before:
+
 - Paper forms
 - Slow approvals
 - No real-time updates
 
 After:
+
 - Fully digital workflow
 - Faster approvals
 - Real-time tracking and visibility
@@ -106,4 +144,5 @@ After:
 - Introduce API-first architecture
 
 ## Note
+
 Source code is private due to company confidentiality.
